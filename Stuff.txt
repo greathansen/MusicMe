@@ -1,0 +1,19 @@
+installers:
+text editor: http://www.sublimetext.com/
+ruby:http://www.ruby-lang.org/en/downloads
+mysql:http://dev.mysql.com/downloads/
+
+http://dev.mysql.com/downloads/connector/c/
+[1] gem install mysql
+[2] you will see like error syntac but dont pay attention to it
+[3] find LIBMYSQL.DLL from your mysql/bin folder in your mysql folder 
+not ruby folder.
+[4] copy & paste that file to ruby/bin
+[5] restart your server or console, if you are already run it.
+
+rails new MusicMe
+gem install rails
+gem install mysql
+rake db:create (crea la base con la configuración establecida)
+rails server 
+bundle show (list all gems)
